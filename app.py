@@ -25,7 +25,7 @@ if "chat_history" not in st.session_state:
 # 🎬 2. Safe Secrets Verification
 GOOGLE_API_KEY = st.secrets["GEMINI_API_KEY"]
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+SUPABASE_KEY = st.secrets["SUPABSE_API"]
 
 # Guarantee environment bindings for native LangChain dependencies
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
